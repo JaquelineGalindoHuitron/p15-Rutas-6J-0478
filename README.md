@@ -19,16 +19,16 @@ samples, guidance on mobile development, and a full API reference.
 - Join the discussion and conversation on https://flutlab.io/
 
 
-##Link de Referencia
+## Link de Referencia
 https://drive.google.com/file/d/1p0bEehsZnFB0TvBkwz6rbJE8oyVkbv23/view
 
-##Resultados
+## Resultados
 
-###Pagina Inicial
+### Pagina Inicial
 ![image](https://github.com/JaquelineGalindoHuitron/Rutas-6J-0478/assets/143548375/46a21249-1920-4030-a8b1-f7861adfd8e3)
 
-###Pagina 1
+### Pagina 1
 ![image](https://github.com/JaquelineGalindoHuitron/Rutas-6J-0478/assets/143548375/a3598212-17c1-449b-b141-992efb05023f)
 
-##Pagina 2
+### Pagina 2
 ![image](https://github.com/JaquelineGalindoHuitron/Rutas-6J-0478/assets/143548375/02945464-0343-4c51-99b7-82e3e6e49a10)
