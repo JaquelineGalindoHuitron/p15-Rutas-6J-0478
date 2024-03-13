@@ -13,8 +13,21 @@ class Pantalla2_0478 extends StatelessWidget {
         backgroundColor: Colors.purple,
       ),
       body: Center(
-        child: Text(
-          'Pantalla 2',
+        child: Container(
+          color: Color(0xff67bcd5),
+          width: double.infinity,
+          height: 150,
+          child: Card(
+            color: Color(0xffb0edd6),
+            margin: EdgeInsets.all(32),
+            child: Padding(
+              padding: EdgeInsets.all(20),
+              child: Text(
+                'ㅤGalindo0478',
+                style: TextStyle(fontSize: 30),
+              ),
+            ),
+          ),
         ),
       ),
     );
