@@ -10,19 +10,22 @@ class Pantalla1_0478 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Pantalla1 Galindo0478'),
-        backgroundColor: Colors.blueAccent,
+        backgroundColor: Color(0xff4075e7),
       ),
       body: Center(
-          child: Column(
-        children: [
-          ElevatedButton(
-            onPressed: () {
-              Navigator.pushNamed(context, "/pantalla2_0478"); //fin onPressed
-            },
-            child: Text("Mover a pantalla2"),
-          )
-        ], //fin niño
-      )),
+        child: Container(
+          color: Color(0xffc484cd),
+          width: 300,
+          height: 300,
+          padding: EdgeInsets.all(32),
+          margin: EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+          alignment: Alignment.center,
+          child: Text(
+            'Galindo0478',
+            style: TextStyle(fontSize: 30),
+          ),
+        ),
+      ),
     );
     ;
   }

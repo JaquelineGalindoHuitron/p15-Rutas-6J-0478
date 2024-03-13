@@ -10,7 +10,7 @@ class PantallaIni_0478 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Pagina Inicial Galindo0478"),
-        backgroundColor: Colors.cyan,
+        backgroundColor: Color(0xff48b7ca),
       ),
       body: Center(
           child: Column(
@@ -20,13 +20,19 @@ class PantallaIni_0478 extends StatelessWidget {
             onPressed: () {
               Navigator.pushNamed(context, "/pantalla1_0478"); //fin onPressed
             },
-            child: Text("Mover a pantalla1"),
+            child: Text("Pantalla 1"),
           ),
           ElevatedButton(
             onPressed: () {
               Navigator.pushNamed(context, "/pantalla2_0478"); //fin onPressed
             },
-            child: Text("Mover a pantalla2"),
+            child: Text("Pantalla2"),
+          ),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.pushNamed(context, "/pantalla3_0478"); //fin onPressed
+            },
+            child: Text("Pantalla3"),
           )
         ], //fin de niños
       )),
